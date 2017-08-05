@@ -10,105 +10,23 @@
     <title>登录</title>
     <link rel="stylesheet" href="css/ba.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index1.css">
     <style>
-        body{
-            background-color: #f4f4f4;
-        }
-        header{
-            width: 100%;
-            /*height: 2.48rem;*/
-            height: 0.98rem;
-            background-color: #fff;
-            position: fixed;
-            top: 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color:#000;
-            border-bottom:solid 1px #ccc;
-        }
 
-        header span:nth-of-type(3){
-            margin-right: 0.28rem;
-            font-size:0.27rem;
-        }
-        header span:nth-of-type(2){
-            font-size:0.38rem;
-            font-weight:900;
-        }
-        header span:nth-of-type(1){
-            margin-left: 0.28rem;
-            font-size:0.27rem;
-        }
-
-        div.banner img{
-            margin-top:0.99rem;
-            width: 100%;
-        }
-        .box1{
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-
-        .box1 a{
-            flex: 0 1 33%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            color:#666;
-            height: 1.58rem;
-            border-right: 1px solid #aaa;
-            border-bottom: 1px solid #aaa;
-            box-sizing: border-box;
-        }
-        .box1 a:nth-of-type(3n){
-            border-right:0;
-        }
-        .box1 a i{
-            margin-top:0.25rem;
-            font-size: 0.46rem;
-        }
-
-
-
-
-
-        footer{
-            display: flex;
-            justify-content: space-around;
-            height: 0.97rem;
-            position: fixed;
-            bottom: 0;
-            border: 1px solid #cccccc;
-            width: 100%;
-            background-color: #fff;
-        }
-        footer a{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            color:#666;
-        }
-        .footer a i{
-            font-size: 0.46rem;
-        }
-        .active{
-            color: #17acfd;
-        }
     </style>
 </head>
 <body>
 <header>
-    <span class="pic"><i class="iconfont">&#xe8be;</i></span>
-    <span>ICBC</span>
-    <span><i class="iconfont">&#xe889;</i></span>
+        <span class="pic"> <em class="dian"></em></span>
+        <span>荷包</span>
+        <span>账单</span>
 </header>
-
+<div class="sao">
+    <p><i class="iconfont">&#xe62b;</i><span>扫一扫</span></p>
+    <p><i class="iconfont">&#xe602;</i><span>付款吗</span></p>
+</div>
 <div class="banner">
-    <img src="img/banner2.jpg" alt="">
+    <img src="img/banner.jpg" alt="">
 </div>
 <div class="main">
     <div class="box1">
@@ -161,10 +79,13 @@
             <span>荷包</span>
         </a>
         <a class="active">
-            <i class="iconfont">&#xe889;</i>
+            <i class="iconfont">&#xe895;</i>
             <span>荷包</span>
         </a>
-
+        <a class="active">
+            <i class="iconfont">&#xe895;</i>
+            <span>荷包</span>
+        </a>
 
     </div>
 </div>
