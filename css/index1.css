@@ -1,0 +1,131 @@
+body{
+    background-color: #f4f4f4;
+}
+header{
+    width: 100%;
+    /*height: 2.48rem;*/
+    height: 0.88rem;
+    background-color: #0082cd;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+header span:nth-of-type(1){
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius:50%;
+    border: 1px solid skyblue;
+    background:url("../img/sbg5.jpg") center;
+    margin-left:0.28rem;
+    position: relative;
+}
+.dian{
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left:0.4rem;
+    border-radius:50%;
+}
+header span:nth-of-type(3){
+    margin-right: 0.28rem;
+    font-size:0.27rem;
+}
+header span:nth-of-type(2){
+    font-size:0.38rem;
+    font-weight:900;
+}
+div.sao{
+    margin-top: 0.88rem;
+    display: flex;
+    height:1.6rem;
+    background-color: #0082cd;
+    justify-content: space-around;
+}
+div.sao p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:#fff;
+
+}
+div.sao p i{
+    font-size:0.66rem ;
+}
+div.sao p span{
+    margin-top: 0.1rem;
+    font-size:0.22rem;
+}
+div.banner img{
+    width: 100%;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1 a{
+    flex: 1 1 25%;
+}
+
+.box1 a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color:#666;
+    height: 1.58rem;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    box-sizing: border-box;
+}
+.box1 a:nth-of-type(4n){
+    border-right:0;
+}
+.box1 a i{
+    margin-top:0.25rem;
+    font-size: 0.46rem;
+}
+
+.box1 a:nth-last-child(1),.box1 a:nth-last-child(2){
+    margin-top:0.2rem;
+    height:1.4rem;
+    flex-direction: row;
+    align-items: center;
+    border-top:1px solid #aaa;
+}
+.box1 a:nth-last-child(1){
+    border-right: 0;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 0.97rem;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #cccccc;
+    width: 100%;
+    background-color: #fff;
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color:#666;
+}
+.footer a i{
+    font-size: 0.46rem;
+}
+.active{
+    color: #17acfd;
+}

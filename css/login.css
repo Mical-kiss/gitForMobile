@@ -1,0 +1,69 @@
+header{
+    height: 3.2rem;
+    background:url("../img/1.png") center center no-repeat;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+header div{
+    width: 1.50rem;
+    height: 1.50rem;
+    border-radius:50%;
+    background:url("../img/sbg5.jpg") center center no-repeat;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    border: 0.08rem solid #e4f5fc;
+    box-shadow: 0 0 0px 1px gray;
+}
+header p.this{
+    color: #f44;
+    font-weight:900;
+    margin:0.34rem;
+
+}
+header p.this i{
+    font-size:0.6rem!important;
+}
+form{
+    margin:0.36rem 0.15rem;
+}
+form input[type=text]{
+    width: 100%;
+    height: 0.99rem;
+    border: 1px solid #ccc;
+    padding-left:0.2rem;
+    box-sizing: border-box;
+}
+form input:nth-of-type(2){
+    border-top:0;
+
+}
+form p{
+    line-height: 0.88rem;
+    font-size:0.28rem
+}
+form p input{
+    float: left;
+    width: 0.38rem;
+    height: 0.38rem;
+    color: #fa727f;
+    border: 1px solid #fa727f;
+    margin-top: 0.26rem;
+}
+form input[type=submit]{
+    background-color: #fa727f;
+    width: 100%;
+    height: 0.8rem;
+    border-radius:0.12rem;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom:0.56rem;
+}
